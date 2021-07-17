@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML & HTML5</title>
+</head>
+
+<body>
+    <!--This is a comment-->
+    <h1>This is a big heading.</h1>
+    <h3>This is a small heading.</h3>
+    <main>
+        <p>This is a paragraph.</p>
+        <img src=https://www.freecatphotoapp.com/your-image.jpg width=20% alt="Cat wearing a tie">
+    </main>
+    <a href="#footer">Jump to bottom</a>
+    <a href="https://www.freecatphotoapp.com">Cat photos</a>
+    <!--Opens in the same window-->
+    <a href="https://www.freecatphotoapp.com" target="_blank">cat photos</a>
+    <!--Opens in a new window-->
+    <p>View more <a href="https://www.freecatphotoapp.com" target="_blank">cat photos</a></p>
+    <p>Click here to view more <a href="#" target="_blank">cat photos</a>.</p>
+    <!--To put the link later, use # which points the same webpage-->
+    <ul>
+        <li>Milk</li>
+        <li>Rice</li>
+        <li>Fish</li>
+    </ul>
+    <ol>
+        <li>Dogs</li>
+        <li>Rats</li>
+        <li>Water</li>
+    </ol>
+    <input type="text">
+    <input type="text" placeholder="cat photo URL">
+    <form action="https://www.freecatphotoapp.com/submit-cat-photo">
+        <input type="text" placeholder="cat photo URL">
+    </form>
+    <form action="https://www.freecatphotoapp.com/submit-cat-photo">
+        <input type="text" placeholder="cat photo URL">
+        <button type="submit">Submit</button>
+    </form>
+    <form action="https://www.freecatphotoapp.com/submit-cat-photo">
+        <input type="text" placeholder="cat photo URL" required>
+        <button type="submit">Submit</button>
+    </form>
+    <form action="https://www.freecatphotoapp.com/submit-cat-photo">
+        <input type="text" placeholder="cat photo URL" required>
+        <button type="submit">Submit</button>
+        <label>
+            <input type="radio" name="indoor-outdoor">Indoor
+        </label>
+        <label>
+            <input type="radio" name="indoor-outdoor">Outdoor
+        </label>
+    </form>
+    <form action="https://www.freecatphotoapp.com/submit-cat-photo">
+        <input type="text" placeholder="cat photo URL" required>
+        <button type="submit">Submit</button>
+        <label for="indoor">
+            <input id="indoor" type="radio" name="indoor-outdoor">Indoor
+        </label>
+        <label for="indoor">
+            <input id="indoor" type="radio" name="indoor-outdoor">Outdoor
+        </label>
+        <label for="tick">
+            <input id="tick" type="checkbox" name="personality">Angry</label>
+        <label for="tick">
+            <input id="tick" type="checkbox" name="personality">Calm</label>
+        <label for="tick">
+            <input id="tick" type="checkbox" name="personality">Sleepy</label>
+    </form>
+    <!--for and id attribute should be same-->
+    <form action="https://www.freecatphotoapp.com/submit-cat-photo">
+        <label for="indoor"><input id="indoor" type="radio" value="indoor" name="indoor-outdoor"> Indoor</label>
+        <label for="outdoor"><input id="outdoor" type="radio" value="outdoor" name="indoor-outdoor"> Outdoor</label><br>
+        <label for="loving"><input id="loving" type="checkbox" value="loving" name="personality"> Loving</label>
+        <label for="lazy"><input id="lazy" type="checkbox" value="lazy" name="personality"> Lazy</label>
+        <label for="energetic"><input id="energetic" type="checkbox" value="energetic" name="personality">
+            Energetic</label><br>
+        <input type="text" placeholder="cat photo URL" required>
+        <button type="submit">Submit</button>
+    </form>
+    <form action="https://www.freecatphotoapp.com/submit-cat-photo">
+        <label for="indoor"><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
+        <label for="outdoor"><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label><br>
+        <label for="loving"><input id="loving" type="checkbox" name="personality" value="loving" checked> Loving</label>
+        <label for="lazy"><input id="lazy" type="checkbox" name="personality" value="lazy"> Lazy</label>
+        <label for="energetic"><input id="energetic" type="checkbox" name="personality" value="energetic">
+            Energetic</label><br>
+        <input type="text" placeholder="cat photo URL" required>
+        <button type="submit">Submit</button>
+        <div>
+            <p>Things cats love:</p>
+            <ul>
+                <li>cat nip</li>
+                <li>laser pointers</li>
+                <li>lasagna</li>
+            </ul>
+            <p>Top 3 things cats hate:</p>
+            <ol>
+                <li>flea treatment</li>
+                <li>thunder</li>
+                <li>other cats</li>
+            </ol>
+        </div>
+    </form>
+    <footer id="footer">Copyright Cat Photo App</footer>
+</body>
+
+</html>
